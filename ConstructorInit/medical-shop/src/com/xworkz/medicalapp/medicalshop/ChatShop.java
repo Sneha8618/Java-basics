@@ -10,6 +10,10 @@ public class ChatShop {
 	public String coldDrinks[];
 	public int noOfItems;
 	
+	public ChatShop() {
+		
+	}
+	
 	public ChatShop(String gstNo, String address, String name, String chatNames[], int itemPrices[],
 			String coldDrinks[], int noOfItems) {
 		System.out.println("Chat shop object is created");
@@ -30,7 +34,7 @@ public class ChatShop {
 		System.out.println("******************************");
 		System.out.println("Chat shop name is" + name);
 		System.out.println("******************************");
-		System.out.println("Number of items are");
+		System.out.println("Number of items are" + noOfItems);
 		System.out.println("******************************");
 		
 		System.out.println("Chat names are");

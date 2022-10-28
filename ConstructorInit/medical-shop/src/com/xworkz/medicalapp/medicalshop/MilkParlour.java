@@ -2,7 +2,7 @@ package com.xworkz.medicalapp.medicalshop;
 
 public class MilkParlour {
 	
-	public String id;
+	public String gstNo;
 	public String name;
 	public String address;
 	public String milkProducts[];
@@ -11,10 +11,14 @@ public class MilkParlour {
 	public int noOfProducts;
 	public int noOfWorkers;
 	
-	public MilkParlour(String id, String name, String address, String milkProducts[], int prices[],
+	public MilkParlour() {
+		
+	}
+	
+	public MilkParlour(String gstNo, String name, String address, String milkProducts[], int prices[],
 			String brandNames[], int noOfProducts, int noOfWorkers) {
 		System.out.println("Milk parlour object is created");
-		this.id = id;
+		this.gstNo = gstNo;
 		this.name = name;
 		this.address = address;
 		this.milkProducts = milkProducts;
@@ -26,7 +30,7 @@ public class MilkParlour {
 	}
 	
 	public void toMakeProducts() {
-		System.out.println("Milk parlour id is" + id);
+		System.out.println("Milk parlour gst number is" + gstNo);
 		System.out.println("*********************");
 		System.out.println("Milk parlour name is" + name);
 		System.out.println("*********************");

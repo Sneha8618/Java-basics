@@ -11,6 +11,10 @@ public class IceCreamParlour {
 	public String address;
 	public int noOfFlavours;
 	
+	public IceCreamParlour() {
+		
+	}
+	
 	public IceCreamParlour(String gstNo, String name, String brandNames[], String flavours[], 
 			String typesOfIceCreams[], int prices[], String address, int noOfFlavours) {
 		System.out.println("Ice cream parlour object is created");

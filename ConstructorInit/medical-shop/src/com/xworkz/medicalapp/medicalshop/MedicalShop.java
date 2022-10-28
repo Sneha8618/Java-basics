@@ -13,7 +13,12 @@ public class MedicalShop {
 	public String billingMethod[];
 	
 	//this  : It is used to avoid the conflict between instance variable and parameter
+	//default constructor
+	public MedicalShop() {
+		
+	}
 	
+	//parameterized constructor
 	public MedicalShop(String gstNo,String address, String name, String staffNames[], long staffContactNo[], String medicineName[], String cosmetics[], int noOfSections, String billingMethod[]) {
 		System.out.println("Medical shop object is created");
 		this.gstNo = gstNo;
