@@ -1,16 +1,24 @@
 package com.xworkz.interview;
 
+import java.util.Scanner;
+
 public class SwapTwoNumbers {
 	
 	public static void main(String args[]) {
 		
-		int temp;
-		int a = 10;
-		int b = 20;
+		int a, b;
 		
-		temp = a;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter first number");
+		a = sc.nextInt();
+		Scanner sc1 = new Scanner(System.in);
+		System.out.println("Enter second number");
+		b = sc1.nextInt();
+		
+		
+	    int temp = a;
 		a = b;
-		b = a;
+		b = temp;
 		
 		System.out.println("After swapping numbers" + a + " "+ b);
 	}

@@ -21,6 +21,7 @@ public class LargestAndSmallest {
 		System.out.println("The largest number is " + largest);
 		System.out.println("The smallest number is " + smallest);
 		
+		
 	}
 	
 	

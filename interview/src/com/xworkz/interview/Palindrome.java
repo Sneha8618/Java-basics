@@ -1,10 +1,17 @@
 package com.xworkz.interview;
 
+import java.util.Scanner;
+
 public class Palindrome {
 	
 	public static void main(String args[]) {
 		
-		int num = 121, rev = 0;
+		int num, rev = 0;
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter number");
+		num = sc.nextInt();
+		
 		int temp = num;
 		
 		while(num > 0) {
