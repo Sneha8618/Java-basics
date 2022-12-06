@@ -2,20 +2,27 @@ package com.xworkz.hospitalapp.patient;
 
 import com.xworkz.hospitalapp.constant.Gender;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+
 public class Patient {
 	
-	public String patientName;
-	public String address;
-	public Gender gender;
-	public Integer age;
+	private String patientName;
+	private String address;
+	private Gender gender;
+	private Integer age;
 	
-	public Patient(String patientName, String address, Gender gender, int age) {
+	
+	/*public Patient(String patientName, String address, Gender gender, int age) {
 		this.patientName = patientName;
 		this.address = address;
 		this.gender = gender;
 		this.age = age;
 		
-		}
+		}*/
 	
 	public void displayInfo() {
 		System.out.println("Patient name is " + this.patientName);
