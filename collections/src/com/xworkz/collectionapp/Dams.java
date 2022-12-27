@@ -221,6 +221,10 @@ public class Dams {
 	   while(dams.hasNext()) {
 		   String ref = dams.next();
 		   System.out.println(ref);
+		   
+		   StringBuilder builder = new StringBuilder();
+		   System.out.println(builder.reverse());
+		   
 	   
 		   System.out.println("dams name start with 't' ");
 		   if(ref.startsWith("T")) {
@@ -241,6 +245,7 @@ public class Dams {
 			  System.out.println("contains p value removes" + ref);
 			  dams.remove();
 		   }
+		   
 		   
 		   String upper = ref.toUpperCase();
 		   System.out.println(upper);
