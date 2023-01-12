@@ -13,6 +13,15 @@ public class BhasyamCircleRunner {
 		ApplicationContext spring = new AnnotationConfigApplicationContext(SpringConfiguration.class);
 		BhasyamCircle ref = spring.getBean(BhasyamCircle.class);
 		System.out.println(ref);
+		
+		String string = spring.getBean(String.class);
+		System.out.println(string);
+		
+		Float value = spring.getBean(Float.class);
+		System.out.println("Value is : " + value);
+		
+		Double value1 = spring.getBean(Double.class);
+		System.out.println("value is : " + value1);
 	}
 
 }
