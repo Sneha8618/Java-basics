@@ -1,0 +1,7 @@
+com\xworkz\egg\repository\EggRepository.class
+com\xworkz\egg\service\EggService.class
+com\xworkz\egg\dto\EggDTO.class
+com\xworkz\egg\service\EggServiceImpl.class
+com\xworkz\egg\configuration\EggApplicationConfiguration.class
+com\xworkz\egg\controller\EggController.class
+com\xworkz\egg\repository\EggRepositoryImpl.class
